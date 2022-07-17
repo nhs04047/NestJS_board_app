@@ -5,6 +5,6 @@ export interface Board {
   status: BoardStatus;
 }
 export enum BoardStatus {
-  PUBLIC = 'PUBLIC',
-  PRIVATE = 'PRIVATE',
+  PUBLIC = "PUBLIC",
+  PRIVATE = "PRIVATE",
 }
