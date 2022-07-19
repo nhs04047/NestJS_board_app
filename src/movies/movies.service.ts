@@ -20,7 +20,7 @@ export class MoviesService {
 
   create(movieData) {
     this.movies.push({
-      id: this.movies.lenght + 1,
+      id: this.movies.length + 1,
       ...movieData,
     });
   }
